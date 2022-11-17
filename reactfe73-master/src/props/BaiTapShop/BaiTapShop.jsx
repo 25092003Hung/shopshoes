@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ProductItem from './ProductItem'
 
 const data = [
     {
@@ -157,7 +156,8 @@ export default class BaiTapShop extends Component {
                     <p className="card-text">{item.price}$</p>
                     <button className='btn btn-dark' onClick={() => {
                     this.viewDetail(item);
-                }}>Add to cart</button>
+                }}>description</button>
+                    <button>Add to Cart</button>
                 </div>
             </div>
             </div>
